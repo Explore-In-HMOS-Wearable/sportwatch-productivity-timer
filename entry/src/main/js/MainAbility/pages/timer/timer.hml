@@ -1,0 +1,10 @@
+<div class="container">
+    <text class="time">{{ timeText }}</text>
+    <progress class="bar" type="horizontal" percent="{{ percent }}"></progress>
+
+    <div class="div-button">
+        <input class="button" type="button" value="Start" onclick="start"></input>
+        <input class="button" type="button" value="Stop" onclick="pause"></input>
+        <input class="button" type="button" value="Refresh" onclick="reset"></input>
+    </div>
+</div>

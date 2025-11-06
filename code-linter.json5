@@ -1,0 +1,43 @@
+{
+  "files": [
+    "**/*.ets"
+  ],
+  "ignore": [
+    "**/src/ohosTest/**/*",
+    "**/src/test/**/*",
+    "**/src/mock/**/*",
+    "**/node_modules/**/*",
+    "**/oh_modules/**/*",
+    "**/build/**/*",
+    "**/.preview/**/*"
+  ],
+  "ruleSet": [
+    "plugin:@performance/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@hw-stylistic/all"
+  ],
+  "rules": {
+    "@security/no-unsafe-aes": "error",
+    "@security/no-unsafe-hash": "error",
+    "@security/no-unsafe-mac": "warn",
+    "@security/no-unsafe-dh": "error",
+    "@security/no-unsafe-dsa": "error",
+    "@security/no-unsafe-ecdsa": "error",
+    "@security/no-unsafe-rsa-encrypt": "error",
+    "@security/no-unsafe-rsa-sign": "error",
+    "@security/no-unsafe-rsa-key": "error",
+    "@security/no-unsafe-dsa-key": "error",
+    "@security/no-unsafe-dh-key": "error",
+    "@security/no-unsafe-3des": "error",
+    "@hw-stylistic/curly": 2,
+    "@hw-stylistic/indent": 2,
+    "@hw-stylistic/keyword-spacing": 2,
+    "@hw-stylistic/max-len": 2,
+    "@hw-stylistic/no-multi-spaces": 2,
+    "@hw-stylistic/no-tabs": 2,
+    "@hw-stylistic/object-property-newline": 2,
+    "@hw-stylistic/one-var-declaration-per-line": 2,
+    "@hw-stylistic/operator-linebreak": 2,
+    "@hw-stylistic/quotes": 2,
+  }
+}
