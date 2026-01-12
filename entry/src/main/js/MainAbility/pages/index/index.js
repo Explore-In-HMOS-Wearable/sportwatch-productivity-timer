@@ -4,30 +4,30 @@ export default {
     data: {
         todolist: [
             {
-                title: 'Workout',
+                title: 'Workout'
             },
             {
-                title: 'Meditation',
+                title: 'Meditation'
             },
             {
-                title: 'Cooking',
+                title: 'Cooking'
             },
             {
-                title: 'Study',
+                title: 'Study'
             },
             {
-                title: 'Reading',
+                title: 'Reading'
             },
             {
-                title: 'Language Practice',
+                title: 'Language Practice'
             },
             {
-                title: 'Deep Work',
+                title: 'Deep Work'
             },
             {
-                title: 'Homework',
+                title: 'Homework'
             }
-        ],
+        ]
     },
 
     pushPage() {

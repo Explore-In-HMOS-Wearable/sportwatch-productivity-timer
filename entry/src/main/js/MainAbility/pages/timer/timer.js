@@ -41,8 +41,9 @@ export default {
 
             const minutes = Math.floor(timer / 60);
             const seconds = timer % 60;
-            const mm = minutes < 10 ? '0' + minutes : String(minutes);
-            const ss = seconds < 10 ? '0' + seconds : String(seconds);
+
+            const mm = minutes < 10 ? `0${minutes}` : String(minutes);
+            const ss = seconds < 10 ? `0${seconds}` : String(seconds);
 
             this.timeText = `${mm}:${ss}`;
             this.percent = Math.min(100, Math.floor(((total - timer) / total) * 100));

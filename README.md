@@ -1,6 +1,6 @@
 > **Note:** To access all shared projects, get information about environment setup, and view other guides, please visit [Explore-In-HMOS-Wearable Index](https://github.com/Explore-In-HMOS-Wearable/hmos-index).
 
-# ProductivityTimer
+# Sportwatch Productivity Timer
 
 ProductivityTimer is a lightweight HarmonyOS Lite Wearable application designed to help users manage tasks and stay focused through a simple countdown timer experience.
 
@@ -88,6 +88,6 @@ ProductivityTimer/
 
 # License
 
-ProductivityTimer is distributed under the terms of the MIT License.
+Sportwatch Productivity Timer is distributed under the terms of the MIT License.
 
 See the [LICENSE](/LICENSE) for more information.
